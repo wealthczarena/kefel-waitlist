@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Join our waitlist and get early access to manage and track your expenses,
+  , import your Mint data, link multiple bank accounts, receive expense reports, all in one simple app." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+  </style>
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/queries.css">
+  <link rel="icon" href="./assets/favicon.svg">
+
+  <title>Kefel</title>
+</head>
+
+<body>
+  <canvas id="gradient-canvas" data-transition-in></canvas>
+  <div class="content">
+
+    <header>
+        <img src="./assets/kefel.svg" alt="kefel logo" class="logo">
+      <button class="waitlist-btn" id="join-waitlist-btn">Join the waitlist</button>
+    </header>
+
+    <main>
+
+      <h1>Kefel - Track Your Expenses Effortlessly</h1>
+      <p class="description">
+        Welcome to Kefel, the minimalist expense tracker app that simplifies your financial management.
+        Join our waitlist to be among the first to experience seamless expense tracking, robust data
+        visualization, and comprehensive financial insights—all in one place.
+      </p>
+
+      <!-- CTA -->
+      <div class="buttons">
+        <button class="join-btn" id="main-join-waitlist-btn">Join the waitlist</button>
+        <a href="https://x.com/czarenawealthh" target="_blank">
+          <button class="contact-btn">Give Feedback</button>
+        </a>
+      </div>
+
+      <!-- Features -->
+      <div class="features">
+        <div class="feature">
+          <ion-icon class="feature-icon" name="analytics-outline"></ion-icon>
+          <h3 class="feature-title">Concise Expense Tracking</h3>
+          <p class="feature-text">Monitor all your expenses in one place effortlessly. Track your daily, weekly, and monthly spending with ease and gain valuable insights into your financial habits.
+          </p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon" name="download-outline"></ion-icon>
+          <h3 class="feature-title">Seamless Data Integration</h3>
+          <p class="feature-text">Easily integrate your data from Mint and other platforms into Kefel. Keep all your financial information consolidated for a clearer and more accurate view of your expenses.</p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon" name="unlink-outline"></ion-icon>
+          <h3 class="feature-title">Multi-Account Linking</h3>
+          <p class="feature-text">Link multiple bank accounts to manage all your finances from a single app. Enjoy a seamless experience with synchronized transactions and balances across all your accounts.</p>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p class="copyright">Copyright &copy;
+        <span class="year">2024</span>
+        by Kefel. All rights reserved.
+      </p>
+    </footer>
+  </div>
+
+  <!-- Typeform -->
+  <div id="typeform-overlay" onclick="closeTypeform()"></div>
+  <div id="typeform-modal">
+    <div data-tf-live="01J2A5AVRN6ZQQQVDB8HJPGT01"></div>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="//embed.typeform.com/next/embed.js"></script>
+  <script src="./js/script.js" type="module"></script>
+
+</body>
+</html>
