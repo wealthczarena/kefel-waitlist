@@ -150,22 +150,6 @@
       font-size: 1.2rem;
     }
 
-    #typeform-modal {
-        display: none;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 11;
-        background: #e0ded9;
-        padding: 8px;
-        border-radius: 10px;
-        width: 80vw;
-        height: 80vh; 
-        overflow: auto; 
-        transition: opacity 0.5s, transform 0.5s;
-      }
-
     /* footer {
         position: absolute;
         bottom: -375px;
