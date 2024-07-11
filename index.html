@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./css/queries.css">
   <link rel="icon" href="./assets/favicon.svg">
 
-  <title>Kefel</title>
+  <title>Kefel Waitlist</title>
 </head>
 
 <body>
@@ -74,14 +74,15 @@
   </div> -->
 
   <!-- Typeform -->
-  <div id="typeform-overlay" onclick="closeTypeform()"></div>
-  <div id="typeform-modal">
-    <div data-tf-live="01J2A5AVRN6ZQQQVDB8HJPGT01"></div>
+  <div id="tally-overlay" class="hidden""></div>
+  <div id="tally-modal" class="hidden">
+    <button id="close-tally-btn">Close</button>
+    <iframe class="hidden" data-tally-src="https://tally.so/r/3XqYlL" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="Kefel Waitlist"></iframe>
   </div>
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="//embed.typeform.com/next/embed.js"></script>
+  <script async src="https://tally.so/widgets/embed.js"></script>
   <script src="./js/script.js" type="module"></script>
 
 </body>
